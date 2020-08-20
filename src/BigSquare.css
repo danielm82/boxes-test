@@ -1,0 +1,7 @@
+.bigSquare {
+  border:1px solid black;
+  width:450px;
+  height:450px;
+  display: inline-block;
+  position:relative;
+}

@@ -1,0 +1,17 @@
+.box {
+  width:50px;
+  height:50px;
+  border:1px solid;
+  box-sizing: border-box;
+  position:absolute;
+}
+
+.box[data-color="green"] {
+  border-color:green;
+}
+
+.box[data-color="red"] {
+  border-color:red;
+  cursor:pointer;
+  line-height:44px;
+}

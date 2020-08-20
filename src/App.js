@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import BigSquare from './BigSquare'
+
+const boxes = 'g04, g10, g11, g12, g20, g44, r80';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BigSquare boxes={boxes}/>
     </div>
   );
 }

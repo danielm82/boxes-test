@@ -14,4 +14,6 @@
   border-color:red;
   cursor:pointer;
   line-height:44px;
+  transition: top linear 0.2s;
+  user-select: none;
 }
